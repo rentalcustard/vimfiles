@@ -37,7 +37,6 @@ set visualbell                    " No beeping.
 
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
-set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 
 " UNCOMMENT TO USE
 "set tabstop=2                    " Global tab width.
@@ -47,6 +46,10 @@ set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%{fugitive#statusline()}%=%-16(\ %l,%c-%v\ %)%P
+
+let Tlist_Auto_Open = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Show_One_File = 1
 
 " Or use vividchalk
 colorscheme vividchalk
