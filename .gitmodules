@@ -34,3 +34,9 @@
 [submodule ".vim/bundle/vim-unimpaired"]
 	path = .vim/bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule ".vim/bundle/ack-vim"]
+	path = .vim/bundle/ack-vim
+	url = git://github.com/vim-scripts/ack.vim.git
+[submodule ".vim/bundle/taglist"]
+	path = .vim/bundle/taglist
+	url = git://github.com/vim-scripts/taglist.vim.git
