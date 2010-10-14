@@ -78,5 +78,3 @@ map <leader>d :TlistToggle<Enter>
 " Automatic fold settings for specific files. Uncomment to use.
 " autocmd FileType ruby setlocal foldmethod=syntax
 " autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
-
-au BufWritePost .rb silent! !ctags -R &
