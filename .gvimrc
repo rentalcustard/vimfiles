@@ -12,4 +12,4 @@ set transp=5
 " Uncomment to use.
 " set guioptions-=r                 " Don't show right scrollbar
 
-
+colorscheme liquidcarbon
