@@ -40,3 +40,6 @@
 [submodule ".vim/bundle/taglist"]
 	path = .vim/bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule ".vim/bundle/vim-ruby-debugger"]
+	path = .vim/bundle/vim-ruby-debugger
+	url = git://github.com/astashov/vim-ruby-debugger.git
