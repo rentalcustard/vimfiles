@@ -51,6 +51,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 let Tlist_Auto_Open = 1
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Show_One_File = 1
+let tlist_spec_settings = 'Rspec;c:describe;d:context;f:it'
 
 colorscheme liquidcarbon
 
@@ -67,6 +68,7 @@ map <leader>tm :tabmove
 
 map <leader>t :FuzzyFinderTextMate<Enter>
 map <leader>d :TlistToggle<Enter>
+map <leader>u :GundoToggle<Enter>
 
 " Controversial...swap colon and semicolon for easier commands
 "nnoremap ; :
