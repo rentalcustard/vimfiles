@@ -53,7 +53,7 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_Show_One_File = 1
 let tlist_spec_settings = 'Rspec;c:describe;d:context;f:it'
 
-colorscheme liquidcarbon
+colorscheme wombat256mod
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
