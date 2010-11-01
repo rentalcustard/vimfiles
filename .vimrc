@@ -69,6 +69,7 @@ map <leader>tm :tabmove
 map <leader>t :FuzzyFinderTextMate<Enter>
 map <leader>d :TlistToggle<Enter>
 map <leader>u :GundoToggle<Enter>
+map <leader>e :Explore<Enter>
 
 " Controversial...swap colon and semicolon for easier commands
 "nnoremap ; :
