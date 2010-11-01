@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/vim-ruby-debugger"]
 	path = .vim/bundle/vim-ruby-debugger
 	url = git://github.com/astashov/vim-ruby-debugger.git
+[submodule ".vim/bundle/vim-gist"]
+	path = .vim/bundle/vim-gist
+	url = git://github.com/vim-scripts/Gist.vim.git
