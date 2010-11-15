@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/vim-gist"]
 	path = .vim/bundle/vim-gist
 	url = git://github.com/vim-scripts/Gist.vim.git
+[submodule ".vim/bundle/spacehi"]
+	path = .vim/bundle/spacehi
+	url = git://github.com/vim-scripts/spacehi.vim.git
