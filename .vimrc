@@ -66,7 +66,7 @@ map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
-map <leader>t :FuzzyFinderTextMate<Enter>
+" map <leader>t :FuzzyFinderTextMate<Enter>
 map <leader>d :TlistToggle<Enter>
 map <leader>u :GundoToggle<Enter>
 map <leader>e :Explore<Enter>
