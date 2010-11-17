@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/spacehi"]
 	path = .vim/bundle/spacehi
 	url = git://github.com/vim-scripts/spacehi.vim.git
+[submodule ".vim/bundle/netrw"]
+	path = .vim/bundle/netrw
+	url = git://github.com/vim-scripts/netrw.vim.git
