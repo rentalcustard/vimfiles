@@ -37,9 +37,6 @@
 [submodule ".vim/bundle/ack-vim"]
 	path = .vim/bundle/ack-vim
 	url = git://github.com/vim-scripts/ack.vim.git
-[submodule ".vim/bundle/taglist"]
-	path = .vim/bundle/taglist
-	url = git://github.com/vim-scripts/taglist.vim.git
 [submodule ".vim/bundle/vim-ruby-debugger"]
 	path = .vim/bundle/vim-ruby-debugger
 	url = git://github.com/astashov/vim-ruby-debugger.git
@@ -49,3 +46,6 @@
 [submodule ".vim/bundle/spacehi"]
 	path = .vim/bundle/spacehi
 	url = git://github.com/vim-scripts/spacehi.vim.git
+[submodule ".vim/bundle/taglist"]
+	path = .vim/bundle/taglist
+	url = git@github.com:mortice/taglist.vim
