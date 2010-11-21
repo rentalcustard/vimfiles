@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/ruby-debugger"]
 	path = .vim/bundle/ruby-debugger
 	url = git@github.com:mortice/vim-ruby-debugger
+[submodule ".vim/bundle/tcomment"]
+	path = .vim/bundle/tcomment
+	url = git@github.com:mortice/tcomment_vim
