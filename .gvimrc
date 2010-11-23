@@ -13,3 +13,8 @@ set transp=5
 " set guioptions-=r                 " Don't show right scrollbar
 
 colorscheme wombat256mod
+
+
+" Do not use modal alert dialogs! (Prefer Vim style prompt.)
+" http://stackoverflow.com/questions/4193654/using-vim-warning-style-in-gvim
+set guioptions+=c
