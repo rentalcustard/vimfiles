@@ -58,13 +58,13 @@ map <leader>d :TlistToggle<Enter>
 map <leader>u :GundoToggle<Enter>
 map <leader>e :Explore<Enter>
 
-map <Leader>db  :call g:RubyDebugger.toggle_breakpoint()<CR>
-map <Leader>dv  :call g:RubyDebugger.open_variables()<CR>
-map <Leader>dm  :call g:RubyDebugger.open_breakpoints()<CR>
-map <Leader>dt  :call g:RubyDebugger.open_frames()<CR>
-map <F5>        :call g:RubyDebugger.step()<CR>
-map <F7>        :call g:RubyDebugger.finish()<CR>
-map <F6>        :call g:RubyDebugger.next()<CR>
-map <F8>        :call g:RubyDebugger.continue()<CR>
-map <Leader>de  :call g:RubyDebugger.exit()<CR>
-map <Leader>dd  :call g:RubyDebugger.remove_breakpoints()<CR>
+map <Leader>db  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.toggle_breakpoint()<CR>
+map <Leader>dv  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.open_variables()<CR>
+map <Leader>dm  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.open_breakpoints()<CR>
+map <Leader>dt  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.open_frames()<CR>
+map <F5>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.step()<CR>
+map <F7>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.finish()<CR>
+map <F6>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.next()<CR>
+map <F8>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.continue()<CR>
+map <Leader>de  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.exit()<CR>
+map <Leader>dd  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.remove_breakpoints()<CR>
