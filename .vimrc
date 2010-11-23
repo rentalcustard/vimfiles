@@ -8,8 +8,6 @@ call pathogen#helptags()
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
-runtime macros/matchit.vim        " Load the matchit plugin.
-
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
 
@@ -40,8 +38,8 @@ set nobackup                      " Don't make a backup before overwriting a fil
 set nowritebackup                 " And again.
 
 " UNCOMMENT TO USE
-"set tabstop=2                    " Global tab width.
-"set shiftwidth=2                 " And again, related.
+set tabstop=2                    " Global tab width.
+set shiftwidth=2                 " And again, related.
 "set expandtab                    " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
@@ -54,17 +52,6 @@ let Tlist_Show_One_File = 1
 let tlist_spec_settings = 'Rspec;c:describe;d:context;f:it'
 
 colorscheme wombat256mod
-
-" Tab mappings.
-map <leader>tt :tabnew<cr>
-map <leader>te :tabedit
-map <leader>tc :tabclose<cr>
-map <leader>to :tabonly<cr>
-map <leader>tn :tabnext<cr>
-map <leader>tp :tabprevious<cr>
-map <leader>tf :tabfirst<cr>
-map <leader>tl :tablast<cr>
-map <leader>tm :tabmove
 
 " map <leader>t :FuzzyFinderTextMate<Enter>
 map <leader>d :TlistToggle<Enter>
@@ -81,14 +68,3 @@ map <F6>        :call g:RubyDebugger.next()<CR>
 map <F8>        :call g:RubyDebugger.continue()<CR>
 map <Leader>de  :call g:RubyDebugger.exit()<CR>
 map <Leader>dd  :call g:RubyDebugger.remove_breakpoints()<CR>
-
-" Controversial...swap colon and semicolon for easier commands
-"nnoremap ; :
-"nnoremap : ;
-
-"vnoremap ; :
-"vnoremap : ;
-
-" Automatic fold settings for specific files. Uncomment to use.
-" autocmd FileType ruby setlocal foldmethod=syntax
-" autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
