@@ -40,7 +40,7 @@ set nowritebackup                 " And again.
 " UNCOMMENT TO USE
 set tabstop=2                    " Global tab width.
 set shiftwidth=2                 " And again, related.
-"set expandtab                    " Use spaces instead of tabs
+set expandtab                    " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
@@ -68,3 +68,6 @@ map <F6>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.n
 map <F8>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.continue()<CR>
 map <Leader>de  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.exit()<CR>
 map <Leader>dd  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.remove_breakpoints()<CR>
+
+" colors
+set t_Co=256
