@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/Tom/code/aspire/vendor/plugins/acts_as_solr/lib'
+let g:netrw_dirhist_2='/Users/Tom/code/aspire/vendor/plugins/acts_as_solr'
+let g:netrw_dirhist_3='/Users/Tom/code/aspire/vendor/plugins/acts_as_solr/lib'
+let g:netrw_dirhist_4='/Users/Tom/code/aspire/spec/controllers/admin/admin_controller'
+let g:netrw_dirhist_5='/Users/Tom/code/aspire/app/models'

@@ -1,0 +1,31 @@
+2010/11/23 16:45:59 Set breakpoint to: /Users/Tom/code/aspire/spec/models/user_spec.rb:6
+2010/11/23 16:46:13 Start debugger
+2010/11/23 16:49:46 Killed server with pid: 33200
+2010/11/23 16:49:46 Start debugger
+2010/11/23 16:50:37 Toggling window with name: breakpoints
+2010/11/23 16:50:37 Opened window with name: breakpoints
+2010/11/23 16:50:37 Start displaying data in window with name: breakpoints
+2010/11/23 16:50:37 Set focus to window with name: breakpoints
+2010/11/23 16:50:37 Inserted data to window with name: breakpoints
+2010/11/23 16:50:37 Restored view of window with name: breakpoints
+2010/11/23 16:50:37 Complete displaying data in window with name: breakpoints
+2010/11/23 16:50:37 Opened breakpoints window
+2010/11/23 16:50:41 Toggling window with name: variables
+2010/11/23 16:50:41 Opened window with name: variables
+2010/11/23 16:50:41 Start displaying data in window with name: variables
+2010/11/23 16:50:41 Set focus to window with name: variables
+2010/11/23 16:50:41 Inserted data to window with name: variables
+2010/11/23 16:50:41 Restored view of window with name: variables
+2010/11/23 16:50:41 Complete displaying data in window with name: variables
+2010/11/23 16:50:41 Opened variables window
+2010/11/23 16:50:44 Toggling window with name: frames
+2010/11/23 16:50:44 Opened window with name: frames
+2010/11/23 16:50:44 Start displaying data in window with name: frames
+2010/11/23 16:50:44 Set focus to window with name: frames
+2010/11/23 16:50:44 Inserted data to window with name: frames
+2010/11/23 16:50:44 Restored view of window with name: frames
+2010/11/23 16:50:44 Complete displaying data in window with name: frames
+2010/11/23 16:50:44 Opened frames window
+2010/11/23 16:51:29 Killed server with pid: 40629
+2010/11/23 16:51:29 Killed server with pid: 40632
+2010/11/23 16:51:41 Start debugger
