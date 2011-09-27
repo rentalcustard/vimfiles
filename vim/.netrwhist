@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/tomstuart/code/forward-puppet'
-let g:netrw_dirhist_2='/Users/tomstuart/code/forward-puppet/manifests'
-let g:netrw_dirhist_3='/Users/tomstuart/code/forward-puppet/manifests/resources'
-let g:netrw_dirhist_4='/Users/tomstuart/code/forward-puppet/manifests/resources/ssh-keys'
-let g:netrw_dirhist_5='/Users/tomstuart/code/energy-comparison-client/example'
-let g:netrw_dirhist_6='/Users/tomstuart/code/energy-comparison-client/example/suppliers'
-let g:netrw_dirhist_7='/Users/tomstuart/code/energy-main-process/app'
-let g:netrw_dirhist_8='/Users/tomstuart/code/energy-main-process/app/controllers'
-let g:netrw_dirhist_9='/Users/tomstuart/code/energy-main-process/app'
+let g:netrw_dirhist_cnt =0
