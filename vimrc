@@ -69,5 +69,8 @@ map <F8>        :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.c
 map <Leader>de  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.exit()<CR>
 map <Leader>dd  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.remove_breakpoints()<CR>
 
+map <Leader>y :PBCopy<Enter>
+map <Leader>p :PBPaste<Enter>
+
 " colors
 set t_Co=256

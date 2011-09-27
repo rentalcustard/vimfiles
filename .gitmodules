@@ -70,3 +70,6 @@
 [submodule "vim/bundle/vim-clojure"]
 	path = vim/bundle/vim-clojure
 	url = git://github.com/vim-scripts/VimClojure.git
+[submodule "vim/bundle/pbcopy"]
+	path = vim/bundle/pbcopy
+	url = git@github.com:mortice/pbcopy.vim.git
