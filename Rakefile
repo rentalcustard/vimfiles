@@ -3,4 +3,5 @@
 task :default do
   system "rm -rf .vim/bundle/debugger"
   system "cp -r .vim/bundle/ruby-debugger/vim .vim/bundle/debugger"
+  system "cd ~/.vim/ruby/command-t && ruby extconf.rb && make"
 end
