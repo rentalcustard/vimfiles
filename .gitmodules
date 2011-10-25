@@ -73,3 +73,6 @@
 [submodule "vim/bundle/pbcopy"]
 	path = vim/bundle/pbcopy
 	url = git@github.com:mortice/pbcopy.vim.git
+[submodule "vim/bundle/coffeescript"]
+	path = vim/bundle/coffeescript
+	url = https://github.com/kchmck/vim-coffee-script.git
