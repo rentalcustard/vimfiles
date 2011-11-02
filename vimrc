@@ -74,3 +74,5 @@ map <Leader>p :PBPaste<Enter>
 
 " colors
 set t_Co=256
+
+au BufWritePost *.rb,*.js silent! !ctags -R &
