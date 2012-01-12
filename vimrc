@@ -76,3 +76,4 @@ map <Leader>p :PBPaste<Enter>
 set t_Co=256
 
 au BufWritePost *.rb,*.js silent! !ctags -R &>/dev/null
+let g:Powerline_symbols = 'fancy'
