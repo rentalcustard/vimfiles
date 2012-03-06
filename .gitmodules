@@ -79,3 +79,6 @@
 [submodule "vim/bundle/powerline"]
 	path = vim/bundle/powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim/bundle/tslime"]
+	path = vim/bundle/tslime
+	url = git://github.com/jgdavey/tslime.vim.git
