@@ -49,6 +49,7 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Show_One_File = 1
 let tlist_spec_settings = 'Rspec;c:describe;d:context;f:it'
+let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 
 colorscheme wombat256mod
 
