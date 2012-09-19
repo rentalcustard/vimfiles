@@ -71,6 +71,8 @@ map <Leader>dd  :call ruby_debugger#load_debugger() <bar> :call g:RubyDebugger.r
 map <Leader>y :PBCopy<Enter>
 map <Leader>p :PBPaste<Enter>
 
+map <Leader>s :SpaceHi<Enter>
+
 " colors
 set t_Co=256
 
