@@ -80,3 +80,6 @@ set t_Co=256
 au BufWritePost *.rb,*.js silent! !ctags -R &>/dev/null
 let g:Powerline_symbols = 'fancy'
 let g:slime_target = "tmux"
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+map <Leader>t :CtrlP<Enter>
